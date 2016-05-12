@@ -1,0 +1,195 @@
+/*Color scheme chosen: http://colorhunt.co/c/17141
+/*
+#ECFFFB
+#B4F1F1
+#2D767F
+#1E6262
+*/
+
+
+/*
+$base03:    #002b36;
+$base02:    #073642;
+$base01:    #586e75;
+$base00:    #657b83;
+$base0:     #839496;
+$base1:     #93a1a1;
+$base2:     #eee8d5;
+$base3:     #fdf6e3;
+$yellow:    #b58900;
+$orange:    #cb4b16;
+$red:       #dc322f;
+$magenta:   #d33682;
+$violet:    #6c71c4;
+$blue:      #268bd2;
+$cyan:      #2aa198;
+$green:     #859900;
+*/
+/******* Base Styles *******/
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #002b36;
+  font-family: "Source Sans Pro", sans-serif;
+  /*
+  font-family: "Fira Sans", sans-serif;
+  */
+  text-align: center;
+  color: #839496;
+  font-size: 1.5em;
+}
+
+section {
+  background-color: #002b36;
+}
+
+button {
+  margin: 2%;
+  border: none;
+  font-size: 1.2em;
+}
+
+h1 {
+  font-size: 2em;
+  color: #2aa198;
+}
+
+h2 {
+  color: #268bd2;
+}
+
+a {
+  color: #268bd2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #859900;
+}
+
+ul {
+  list-style-type: none;
+}
+
+footer {
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/******* Main Styles *******/
+
+/* IDEA:
+have two classes - solarized-dark and solarized-light, which will take in the colors needed to be used */
+
+#nav {
+  color: #5BAAEC;
+  display: inline-block;
+  width: 100%;
+  background-color: #073642;
+}
+
+#nav button {
+  float: left;
+/*   color: #5BAAEC; */
+}
+
+.nav-menu {
+  float: right;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+
+.nav-menu li {
+  display: inline-block;
+}
+
+#section-one {
+  height: 100%;
+
+  /*background: url("https://images.unsplash.com/photo-1449960238630-7e720e630019") no-repeat fixed;*/
+  background-size: cover;
+
+  text-align: center;
+
+  clear: both;
+}
+
+#section-one ul li {
+  display: inline;
+}
+
+.social-btn {
+  background-color: #073642;
+  color: #53354A;
+  padding: 2% 3%;
+}
+
+.social-btn:hover {
+  background-color: #53354A;
+  color: #200E40;
+}
+
+#section-two {
+  height: 100%;
+  background: #fdf6e3;
+  color: #586e75;
+  /*background: url("https://images.unsplash.com/photo-1442406964439-e46ab8eff7c4") no-repeat;*/
+  background-size: cover;
+}
+
+#bio {
+  width: 35%;
+
+  font-size: 1em;
+
+  display: inline-block;
+}
+
+#photo-container {
+  width: 45%;
+
+  display: inline-block;
+}
+
+#photo {
+  height: 350px;
+  width: 350px;
+
+  margin: 5%;
+
+  border-radius: 50%;
+}
+
+#portfolio {
+  margin: auto;
+}
+
+.project {
+  background: #ECFFFB;
+  width: 45%;
+  margin: 2%;
+  float: left;
+}
+
+/*.codepen-embed {
+  color: red;
+}*/
+
+#connect {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  clear: both; /* ??? */
+  background-color: #fdf6e3;
+  color: #586e75;
+}
+
+#connect-info {
+
+}
